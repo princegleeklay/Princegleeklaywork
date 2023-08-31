@@ -1,0 +1,61 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: #14213d;
+}
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.card {
+    background: #fff;
+    width: 270px;
+    margin: 10px;
+    border-radius: 15px;
+}
+.card p, h2 {
+    padding: 10px;
+}
+.image1 {
+    background-image: url(./Pizza.jpeg);
+}
+.image2 {
+    background-image: url(./hamburger.jpeg);
+}
+.image3 {
+    background-image: url(./Sandwich.jpeg);
+}
+.image1, .image2, .image3 {
+    height: 170px;
+    margin-bottom: 15px;
+    background-size: cover;
+    border-radius: 15px 15px 0 0;
+}
+.card a {
+    background-color: #fca311;
+    color: #fff;
+    padding: 15px 20px;
+    display: block;
+    text-align: center;
+    margin: 20px 50px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+.card:hover {
+    background-color: #03045e;
+    color: #fff;
+    cursor: pointer;
+    transform: scale(1.06);
+    transition: all 1s ease;
+}
+ h1 {
+    text-align: center;
+    color:#fff;
+    padding: 50px
+    
+ }
